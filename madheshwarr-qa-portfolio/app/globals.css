@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: 246 248 250;
+  --panel: 255 255 255;
+  --ink: 15 27 45;
+  --muted: 84 98 118;
+  --line: 217 224 232;
+  --accent: 14 116 144;
+  --pass: 22 128 74;
+}
+.dark {
+  --paper: 11 18 32;
+  --panel: 17 27 46;
+  --ink: 230 237 245;
+  --muted: 148 163 184;
+  --line: 38 52 77;
+  --accent: 94 200 220;
+  --pass: 74 210 140;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-paper font-sans text-ink antialiased; }
+  :focus-visible { outline: 2px solid rgb(var(--accent)); outline-offset: 3px; }
+}
+
+/* The one orchestrated moment: hero content settles in on page load. */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.rise { animation: rise 0.6s ease-out both; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .rise { animation: none; }
+}
