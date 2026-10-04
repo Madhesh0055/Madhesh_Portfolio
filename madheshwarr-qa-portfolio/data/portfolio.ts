@@ -3,7 +3,7 @@
 
 export const profile = {
   name: "Madheshwarr MM",
-  title: "Software QA Engineer",
+  title: "Software Test Engineer",
   positioning:
     "QA engineer with three years of manual and automation testing, an ISTQB certification, and research into how Generative AI is changing the way software gets tested.",
   location: "Auckland, New Zealand",
@@ -23,7 +23,6 @@ export const profile = {
 export const highlights = [
   { label: "Experience", value: "3 years in QA, manual and automation" },
   { label: "Certified", value: "ISTQB Foundation Level (Apr 2022)" },
-  { label: "Automation", value: "About 40% less manual regression effort" },
   { label: "Research", value: "17 NZ testing professionals interviewed on GenAI" },
 ];
 
@@ -41,7 +40,7 @@ export const work = [
     tech: ["Java", "Selenium WebDriver", "TestNG", "Maven", "Page Object Model"],
   },
   {
-    name: "The Impact of Generative AI on Software Testing",
+    name: "The Impact of Generative AI on Software Testing : A Qualitative Approach",
     context: "Qualitative research · Feb–Nov 2025",
     problem:
       "How are testing professionals in New Zealand actually using Generative AI, and where does it fall short?",
@@ -92,7 +91,7 @@ export const experience = [
 ];
 
 export const skills = [
-  { group: "Test automation", items: ["Selenium WebDriver", "Java", "TestNG", "Maven", "Page Object Model"] },
+  { group: "Test automation", items: ["Selenium WebDriver", "Java Basics", "TestNG", "Maven", "Page Object Model"] },
   {
     group: "Testing practice",
     items: [
