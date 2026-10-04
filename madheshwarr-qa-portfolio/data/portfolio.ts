@@ -80,7 +80,7 @@ export const experience = [
     ],
   },
   {
-    role: "Delivery Intern, QA Engineer",
+    role: "Intern, Test Engineer",
     company: "Virtusa Consulting Services",
     period: "Sep 2021 – Apr 2022",
     points: [
