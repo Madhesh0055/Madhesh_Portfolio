@@ -5,7 +5,7 @@ export const profile = {
   name: "Madheshwarr MM",
   title: "Software Test Engineer",
   positioning:
-    "QA engineer with three years of manual and automation testing, an ISTQB certification, and research into how Generative AI is changing the way software gets tested.",
+    "Tester with three years of manual and automation testing, an ISTQB certification, and research into how Generative AI is changing the way software gets tested.",
   location: "Auckland, New Zealand",
   email: "madheshwarr.mm@gmail.com",
   phone: "022 396 2659",
@@ -14,16 +14,17 @@ export const profile = {
   // Add LinkedIn / GitHub here when you have them, e.g. { label: "LinkedIn", href: "https://..." }
   links: [] as { label: string; href: string }[],
   about: [
-    "I'm a software QA professional with three years of experience in manual and automation testing, across the full testing lifecycle in Agile teams. At Virtusa I built a Selenium and Java automation framework and cut manual regression effort by approximately 40%.",
+    "I'm a software testing professional with three years of experience in manual and automation testing, across the full testing lifecycle in Agile teams. At Virtusa I built a Selenium and Java automation framework and cut manual regression effort by approximately 40%.",
     "I hold an ISTQB Foundation Level certification and a Master of Applied Technologies in Computing from Unitec in Auckland. My research interviewed 17 New Zealand testing professionals on how Generative AI is used in testing, and it was selected for the 2025 ITP Research Symposium.",
-    "I'm looking for a QA role in a technology team that cares about reliable releases and is open to AI-assisted testing done with proper human validation.",
+    "I'm looking for a software test engineer role in a technology team that cares about reliable releases and is open to AI-assisted testing done with proper human validation.",
   ],
 };
 
 export const highlights = [
-  { label: "Experience", value: "3 years in QA, manual and automation" },
-  { label: "Certified", value: "ISTQB Foundation Level (Apr 2022)" },
-  { label: "Research", value: "17 NZ testing professionals interviewed on GenAI" },
+  { label: "Experience", value: "3 years in testing, manual and automation" },
+  { label: "Certified", value: "ISTQB Foundation Level" },
+  { label: "Automation", value: "About 40% less manual regression effort" },
+  { label: "AI-Assisted Testing", value: "Research-driven understanding of modern testing practices;" },
 ];
 
 export const work = [
