@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <Section id="contact" title="Contact">
       <p className="max-w-xl text-lg leading-relaxed text-muted">
-        I'm open to QA and software testing roles. Email is the quickest way to reach me.
+       Open to Software Test Engineer opportunities across manual and automation testing. Reach me by email or phone — always happy to connect and have a good conversation! :)
       </p>
       <dl className="mt-8 max-w-xl divide-y divide-line border-y border-line">
         {rows.map((r) => (
