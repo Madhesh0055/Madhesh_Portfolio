@@ -42,14 +42,14 @@ export const work = [
   },
   {
     name: "The Impact of Generative AI on Software Testing : A Qualitative Approach",
-    context: "Qualitative research · Feb–Nov 2025",
+    context: "Academic Qualitative research · Feb–Nov 2025",
     problem:
       "How are testing professionals in New Zealand actually using Generative AI, and where does it fall short?",
     solution:
       "Interviewed 17 testing professionals, from Test Engineers to Managers, covering test generation, automation, defect analysis, documentation and human-AI collaboration.",
     contribution: "Conducted the study and the interviews.",
     outcome:
-      "Selected after peer review to present at the 2025 ITP Research Symposium. Built a practical view of where tools like ChatGPT, GitHub Copilot and Claude help testing, and where their limits, risks and need for human validation sit.",
+      "Selected after peer review to present at the 2025 ITP Research Symposium. Built a practical view of understanding of where tools like ChatGPT, GitHub Copilot and Claude help testing, and where their limits, risks and need for human validation sit especially in New Zealand context.",
     tech: ["Qualitative research", "Interviews", "GenAI in testing"],
   },
   {
